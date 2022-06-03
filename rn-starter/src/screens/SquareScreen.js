@@ -11,7 +11,9 @@ const SquareScreen = () =>
     const  [red, setRed] = useState(0);
     const [blue,setBlue] = useState(0);
     const [green,setGreen] = useState(0);
-    console.log(red);
+    console.log("red"+red);
+    console.log(`green ${green}`);
+    console.log("blue" + blue);
 
     return(
 //the plan is too use to function as a callback function from the component 
@@ -87,7 +89,7 @@ const SquareScreen = () =>
              }
             }}
             onDecrease = {()=>{
-                if(green + COLOR_INCREMENT > 255)
+                if(green + COLOR_INCREMENT < 0)
                 {
                     return;
                 }
