@@ -57,6 +57,28 @@ const HomeScreen = (props) => {
     onPress = {() => props.navigation.navigate('Square')}
 
 />
+
+<Button 
+    
+    title='Go To Square state changing screen (Reducer)'
+    onPress = {() => props.navigation.navigate('Square')}
+
+/>
+
+<Button 
+    
+    title='Counter app using Reducer'
+    onPress = {() => props.navigation.navigate('CounterReducer')}
+
+/>
+
+
+<Button 
+    
+    title='Text Input screen'
+    onPress = {() => props.navigation.navigate('TextInput')}
+
+/>
     
     {/* <TouchableOpacity onPress = { () => props.navigation.navigate('List')}>
       
