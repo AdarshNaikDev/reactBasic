@@ -16,7 +16,7 @@ const ListScreen = () => {
         {name : "Rakshith",age: '20'},
         {name : "Abhishek",age: '26'},
         {name : "Vardhan",age: '26'},
-        {name : "Sunil",age: '50'}
+        {name : "Sunil",age: '30'}
         
     ];
     return (
